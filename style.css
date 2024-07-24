@@ -32,14 +32,18 @@
     }
 
     .container {
-        border: 0.1px solid #dddddd;
+        border: 1px solid #343d4b;
         border-radius: 10px;
         padding: 28px 32px;
         display: flex;
         flex-direction: column;
         background: transparent;
+        box-shadow: 0 0 1rem #2e3746;
         margin-top: 1rem;
-        filter: blur(0.1px);
+    }
+
+    .container:hover {
+        box-shadow: 0 0 2rem #2e3746;
     }
 
     .container h1 {
@@ -49,6 +53,10 @@
 
     .inputBox {
         position: relative;
+    }
+
+    .inputBox input {
+        color: #181717;
     }
 
     .inputBox span {
@@ -62,7 +70,7 @@
     }
 
     .passBox {
-        background-color: #cccccc;
+        background-color: #595c5c;
         border: none;
         outline: none;
         padding: 10px;
@@ -71,6 +79,11 @@
         font-size: 20px;
         margin-block: 8px;
         text-overflow: ellipsis;
+    }
+
+    #charSlider {
+        background-color: #343434;
+        cursor: pointer;
     }
 
     .row {
@@ -87,6 +100,7 @@
     .row input[type="checkbox"] {
         width: 20px;
         height: 20px;
+        cursor: pointer;
     }
 
     .genBtn {

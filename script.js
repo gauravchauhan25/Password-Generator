@@ -1,17 +1,17 @@
-let inputSlider = document.getElementById("inputSlider");
-let sliderValue = document.getElementById("sliderValue");
-let passBox = document.getElementById("passBox");
-let lowercase = document.getElementById("lowercase");
-let uppercase = document.getElementById("uppercase");
-let numbers = document.getElementById("numbers");
-let symbols = document.getElementById("symbols");
-let genBtn = document.getElementById("genBtn");
-let copyIcon = document.getElementById("copyIcon");
+let charSlider = document.querySelector("#charSlider");
+let sliderValue = document.querySelector("#sliderValue");
+let passBox = document.querySelector("#passBox");
+let lowercase = document.querySelector("#lowercase");
+let uppercase = document.querySelector("#uppercase");
+let numbers = document.querySelector("#numbers");
+let symbols = document.querySelector("#symbols");
+let genBtn = document.querySelector("#genBtn");
+let copyIcon = document.querySelector("#copyIcon");
 
 
-sliderValue.textContent = inputSlider.value;
-inputSlider.addEventListener('input', ()=>{
-    sliderValue.textContent = inputSlider.value;
+sliderValue.textContent = charSlider.value;
+charSlider.addEventListener('input', ()=>{
+    sliderValue.textContent = charSlider.value;
 });
 
 genBtn.addEventListener('click', ()=>{
@@ -40,7 +40,7 @@ function generatePassword(){
     
 
     let i = 1;
-    while(i<=inputSlider.value){
+    while(i<=charSlider.value){
         genPassword += allChars.charAt(Math.floor(Math.random() * allChars.length));
         i++;
     }
