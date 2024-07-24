@@ -1,19 +1,19 @@
-Password Generator Website
+<h1>Password Generator App</h1>
+
+<h3>Description</h3>
+<p>The Password Generator Website is built using HTML, CSS, and JavaScript. It allows users to generate secure random passwords with customizable settings to enhance online security.</p>
 
 
-Description ->
-The Password Generator Website is built using HTML, CSS, and JavaScript. It allows users to generate secure random passwords with customizable settings to enhance online security.
-
-
-Features
-1. Password length customization
+<h3>Features</h3>
+<p>1. Password length customization <br/>
 2. Options to include lowercase, uppercase
 numbers, symbols, exclude duplicates, and
-include spaces
+include spaces. <br/>
 3. Real-time password generation
 Copy password to clipboard functionality
 Smooth scrolling navigation
+</p>
 
-Preview
+<h3>Preview</h3>
 
-![Calculator App and 2 more pages - Personal - Microsoft​ Edge 7_9_2024 11_18_38 PM](https://github.com/gauravchauhan25/Password-Generator/assets/169360671/b5e3a3b4-7df1-4f1e-a9d5-910f517f556c)
+![image](https://github.com/user-attachments/assets/48c23357-5152-4abb-8600-4f6ee2f860f7)
