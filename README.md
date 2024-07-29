@@ -15,5 +15,6 @@ Smooth scrolling navigation
 </p>
 
 <h3>Preview</h3>
-[Screen Recording - Made with FlexClip (2).webm](https://github.com/user-attachments/assets/9a4975f7-4a6e-4fc5-a9fa-82562614e85a)
+
+[Password Generator App.webm](https://github.com/user-attachments/assets/fefcfa60-272e-4a12-976b-a30429d207b8)
 
