@@ -15,5 +15,5 @@ Smooth scrolling navigation
 </p>
 
 <h3>Preview</h3>
+[Screen Recording - Made with FlexClip (2).webm](https://github.com/user-attachments/assets/9a4975f7-4a6e-4fc5-a9fa-82562614e85a)
 
-![image](https://github.com/user-attachments/assets/48c23357-5152-4abb-8600-4f6ee2f860f7)
